@@ -1,0 +1,55 @@
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+   
+    width: 55px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-3{
+ margin: 5px 0;
+}
+.my-2{
+    margin: 20px 0;
+}
+.text-center{
+    text-align: center;
+}
+@media screen and (max-width:950px)
+{
+    body{
+        background-color: rgb(237, 100, 207);
+    }
+    nav{
+        flex-direction: column;
+    }
+    .slider{
+        height: 23vh;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 12px 6px;
+
+
+    }
+}
